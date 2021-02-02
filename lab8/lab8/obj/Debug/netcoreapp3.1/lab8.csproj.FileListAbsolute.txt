@@ -1,0 +1,15 @@
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.csprojAssemblyReference.cache
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.AssemblyInfoInputs.cache
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.AssemblyInfo.cs
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.csproj.CoreCompileInputs.cache
+C:\Users\d3nis\source\repos\lab8\lab8\bin\Debug\netcoreapp3.1\lab8.exe
+C:\Users\d3nis\source\repos\lab8\lab8\bin\Debug\netcoreapp3.1\lab8.deps.json
+C:\Users\d3nis\source\repos\lab8\lab8\bin\Debug\netcoreapp3.1\lab8.runtimeconfig.json
+C:\Users\d3nis\source\repos\lab8\lab8\bin\Debug\netcoreapp3.1\lab8.runtimeconfig.dev.json
+C:\Users\d3nis\source\repos\lab8\lab8\bin\Debug\netcoreapp3.1\lab8.dll
+C:\Users\d3nis\source\repos\lab8\lab8\bin\Debug\netcoreapp3.1\lab8.pdb
+C:\Users\d3nis\source\repos\lab8\lab8\bin\Debug\netcoreapp3.1\MPI.dll
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.csproj.CopyComplete
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.dll
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.pdb
+C:\Users\d3nis\source\repos\lab8\lab8\obj\Debug\netcoreapp3.1\lab8.genruntimeconfig.cache

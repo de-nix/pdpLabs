@@ -1,0 +1,13 @@
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\bin\Debug\netcoreapp3.1\lab4PDP_C.exe
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\bin\Debug\netcoreapp3.1\lab4PDP_C.deps.json
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\bin\Debug\netcoreapp3.1\lab4PDP_C.runtimeconfig.json
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\bin\Debug\netcoreapp3.1\lab4PDP_C.runtimeconfig.dev.json
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\bin\Debug\netcoreapp3.1\lab4PDP_C.dll
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\bin\Debug\netcoreapp3.1\lab4PDP_C.pdb
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\obj\Debug\netcoreapp3.1\lab4PDP_C.AssemblyInfoInputs.cache
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\obj\Debug\netcoreapp3.1\lab4PDP_C.AssemblyInfo.cs
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\obj\Debug\netcoreapp3.1\lab4PDP_C.csproj.CoreCompileInputs.cache
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\obj\Debug\netcoreapp3.1\lab4PDP_C.dll
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\obj\Debug\netcoreapp3.1\lab4PDP_C.pdb
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\obj\Debug\netcoreapp3.1\lab4PDP_C.genruntimeconfig.cache
+C:\Users\d3nis\source\repos\lab4PDP_C\lab4PDP_C\obj\Debug\netcoreapp3.1\lab4PDP_C.csprojAssemblyReference.cache

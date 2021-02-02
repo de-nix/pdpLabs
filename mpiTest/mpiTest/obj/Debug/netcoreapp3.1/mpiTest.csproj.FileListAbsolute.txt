@@ -1,0 +1,15 @@
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\bin\Debug\netcoreapp3.1\mpiTest.exe
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.csprojAssemblyReference.cache
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.AssemblyInfoInputs.cache
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.AssemblyInfo.cs
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\bin\Debug\netcoreapp3.1\mpiTest.deps.json
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\bin\Debug\netcoreapp3.1\mpiTest.runtimeconfig.json
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\bin\Debug\netcoreapp3.1\mpiTest.runtimeconfig.dev.json
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\bin\Debug\netcoreapp3.1\mpiTest.dll
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\bin\Debug\netcoreapp3.1\mpiTest.pdb
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\bin\Debug\netcoreapp3.1\MPI.dll
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.csproj.CoreCompileInputs.cache
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.csproj.CopyComplete
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.dll
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.pdb
+C:\Users\d3nis\source\repos\mpiTest\mpiTest\obj\Debug\netcoreapp3.1\mpiTest.genruntimeconfig.cache

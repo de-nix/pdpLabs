@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+
+<button onclick="window.location.href = '@Url.Action("Index", "Login")'">Login</button>
+
+<form action="@Url.Action("register", "Login")">
+
+    <label> Username : <input type="text" name="username" /></label>
+    <label> Password : <input type="password" name="password" /></label>
+    <input type="submit" value="Register" />
+
+</form>
+

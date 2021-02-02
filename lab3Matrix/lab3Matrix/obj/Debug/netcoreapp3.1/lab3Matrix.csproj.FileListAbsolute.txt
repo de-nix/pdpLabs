@@ -1,0 +1,13 @@
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\bin\Debug\netcoreapp3.1\lab3Matrix.exe
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\bin\Debug\netcoreapp3.1\lab3Matrix.deps.json
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\bin\Debug\netcoreapp3.1\lab3Matrix.runtimeconfig.json
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\bin\Debug\netcoreapp3.1\lab3Matrix.runtimeconfig.dev.json
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\bin\Debug\netcoreapp3.1\lab3Matrix.dll
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\bin\Debug\netcoreapp3.1\lab3Matrix.pdb
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\obj\Debug\netcoreapp3.1\lab3Matrix.csprojAssemblyReference.cache
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\obj\Debug\netcoreapp3.1\lab3Matrix.AssemblyInfoInputs.cache
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\obj\Debug\netcoreapp3.1\lab3Matrix.AssemblyInfo.cs
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\obj\Debug\netcoreapp3.1\lab3Matrix.csproj.CoreCompileInputs.cache
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\obj\Debug\netcoreapp3.1\lab3Matrix.dll
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\obj\Debug\netcoreapp3.1\lab3Matrix.pdb
+C:\Users\d3nis\source\repos\lab3Matrix\lab3Matrix\obj\Debug\netcoreapp3.1\lab3Matrix.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\bin\Debug\netstandard2.0\ConsumerProducer.deps.json
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\bin\Debug\netstandard2.0\ConsumerProducer.dll
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\bin\Debug\netstandard2.0\ConsumerProducer.pdb
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\obj\Debug\netstandard2.0\ConsumerProducer.AssemblyInfoInputs.cache
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\obj\Debug\netstandard2.0\ConsumerProducer.AssemblyInfo.cs
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\obj\Debug\netstandard2.0\ConsumerProducer.csproj.CoreCompileInputs.cache
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\obj\Debug\netstandard2.0\ConsumerProducer.dll
+C:\Users\d3nis\source\repos\ConsumerProducer\ConsumerProducer\obj\Debug\netstandard2.0\ConsumerProducer.pdb

@@ -1,0 +1,108 @@
+﻿
+    <head>
+
+        <script src="~/Scripts/jquery-3.4.1.js"></script>
+
+    </head>
+    <body>
+
+        @{ var user = ViewBag.user;}
+
+        <h1>welcome dear @user.Name</h1>
+
+        <div id="maindiv"></div>
+
+
+
+        <section>
+            <label> name: <input id="name" required /></label>
+            <label> description: <input id="description" required /></label>
+            <label> value: <input type="number" id="value" required /></label>
+            <input id="addAsset" type="submit" value="add new Asset in the local list" />
+        </section>
+
+        <table id="table">
+        </table>
+
+
+        <button id="submitData"> Submit all the assets </button>
+
+        <script>
+            let assets = new Array();
+
+            document.getElementById("submitData").setAttribute("disabled", "true");
+
+            function resetTable() {
+                console.log("fct");
+                document.getElementById("table").outerHTML = "<table id=\"table\"><tr><td>Name</td><td>Description</td><td>Value</td></tr>" +
+                    getRowString() +
+                    "</table>"
+            }
+
+            function getRowString() {
+                let rows = "";
+                assets.forEach(x => rows = rows + "<tr><td>" + x.name + "</td><td>" + x.description + "</td><td>" + x.value + "</td></tr>")
+                return rows;
+            }
+
+
+            function showTable() {
+                 $.ajax({
+                    type: "GET",
+                    url: "/Home/GetAssets",
+                    data: {
+                        id: @user.Id
+                           },
+                    success: function (data) {
+                        $("#maindiv").html(data);
+                    }
+                });
+            }
+
+            $(document).ready(function () {
+                setTimeout(showTable, 500);
+
+                $("#addAsset").click(function () {
+                    let newAsset = {
+                        "id":-1,
+                        "name": document.getElementById("name").value,
+                        "description": document.getElementById("description").value,
+                        "value": document.getElementById("value").value,
+                        "userId": "@user.Id",
+                    };
+                    assets.push(newAsset);
+                    resetTable();
+                    document.getElementById("submitData").removeAttribute("disabled");
+                });
+
+                $("#submitData").click(function () {
+                    document.getElementById("submitData").setAttribute("disabled", "true");
+                    console.log(assets);
+                    $.ajax(
+                        {
+                            url: "/Home/addAssets",
+                            method: "POST",
+                            data_type: "json",
+                            data: {
+                                arr: JSON.stringify(assets)
+                            },
+                            success(data) {
+                                console.log("sent items");
+                                console.log(data);
+                            }
+                        }
+                    )
+                    document.getElementById("table").outerHTML = "<table id=\"table\"></table>";
+                    assets = [];
+
+                });
+
+
+            });
+
+
+
+
+        </script>
+    </body>
+

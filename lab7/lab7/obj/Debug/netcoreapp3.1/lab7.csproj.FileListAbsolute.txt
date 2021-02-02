@@ -1,0 +1,16 @@
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\lab7.exe
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.csprojAssemblyReference.cache
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.AssemblyInfoInputs.cache
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.AssemblyInfo.cs
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.csproj.CoreCompileInputs.cache
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\lab7.deps.json
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\lab7.runtimeconfig.json
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\lab7.runtimeconfig.dev.json
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\lab7.dll
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\lab7.pdb
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\MPI.dll
+C:\Users\d3nis\source\repos\lab7\lab7\bin\Debug\netcoreapp3.1\MPIUtils.dll
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.csproj.CopyComplete
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.dll
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.pdb
+C:\Users\d3nis\source\repos\lab7\lab7\obj\Debug\netcoreapp3.1\lab7.genruntimeconfig.cache

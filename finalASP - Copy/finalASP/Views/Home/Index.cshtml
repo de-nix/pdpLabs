@@ -1,0 +1,162 @@
+﻿
+    <head>
+
+        <script src="~/Scripts/jquery-3.4.1.js"></script>
+
+    </head>
+    <body>
+
+        @{ var user = ViewBag.user;}
+
+        <h1>welcome dear @user.Name</h1>
+
+        <div id="maindiv"></div>
+
+
+        <section>
+            <label>Course <input id="course" /></label>
+            <button id="part">Get participants</button>
+        </section>
+
+
+        <section>
+            <label>Student <input id="student" /></label>
+            <button id="cour">Get courses</button>
+        </section>
+
+        <div id="courses"></div>
+        <div id="participants"></div>
+
+
+        <section>
+            <label> nameStudent: <input id="s" required /></label>
+            <label> nameCourse: <input id="c" required /></label>
+            <label> value: <input type="number" id="grade" required /></label>
+            <input id="addAsset" type="submit" value="add grade for student at course" />
+        </section>
+
+        <table id="table">
+        </table>
+
+
+        <button id="submitData"> Submit all the assets </button>
+
+        <script>
+            let assets = new Array();
+
+            document.getElementById("submitData").setAttribute("disabled", "true");
+
+            function resetTable() {
+                console.log("fct");
+                document.getElementById("table").outerHTML = "<table id=\"table\"><tr><td>Name</td><td>Description</td><td>Value</td></tr>" +
+                    getRowString() +
+                    "</table>"
+            }
+
+            function getRowString() {
+                let rows = "";
+                assets.forEach(x => rows = rows + "<tr><td>" + x.name + "</td><td>" + x.description + "</td><td>" + x.value + "</td></tr>")
+                return rows;
+            }
+
+
+            function showTable() {
+                 $.ajax({
+                    type: "GET",
+                    url: "/Home/GetAssets",
+                    data: {
+                        id: @user.Id
+                           },
+                    success: function (data) {
+                        $("#maindiv").html(data);
+                    }
+                });
+            }
+
+            $(document).ready(function () {
+               // setTimeout(showTable, 500);
+
+
+
+
+                $("#part").click(function () {
+                     $.ajax(
+                        {
+                             url: "/Home/getParticipants",
+                            method: "POST",
+                            data_type: "json",
+                             data: {
+                                 name: document.getElementById("course").value
+                            },
+                            success(data) {
+                                document.getElementById("participants").outerHTML ="<div id=\"participants\">"+data+"</div>"
+                            }
+                        }
+                    )
+                });
+                $("#cour").click(function () {
+                     $.ajax(
+                        {
+                             url: "/Home/getCourses",
+                            method: "POST",
+                            data_type: "json",
+                             data: {
+                                 name: document.getElementById("student").value
+                            },
+                            success(data) {
+                                document.getElementById("courses").outerHTML ="<div id=\"courses\">"+data+"</div>"
+                            }
+                        }
+                    )
+                });
+
+
+                $("#addAsset").click(function () {
+
+                    $.ajax(
+                        {
+                            url: "/Home/addGrade",
+                            method: "POST",
+                            data_type: "json",
+                            data: {
+                                student: document.getElementById("s").value,
+                                course: document.getElementById("c").value,
+                                grade: document.getElementById("grade").value
+                            }
+
+                        }
+                    );
+
+                });
+
+                $("#submitData").click(function () {
+                    document.getElementById("submitData").setAttribute("disabled", "true");
+                    console.log(assets);
+                    $.ajax(
+                        {
+                            url: "/Home/addAssets",
+                            method: "POST",
+                            data_type: "json",
+                            data: {
+                                arr: JSON.stringify(assets)
+                            },
+                            success(data) {
+                                console.log("sent items");
+                                console.log(data);
+                            }
+                        }
+                    )
+                    document.getElementById("table").outerHTML = "<table id=\"table\"></table>";
+                    assets = [];
+
+                });
+
+
+            });
+
+
+
+
+        </script>
+    </body>
+
